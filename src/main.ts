@@ -1,4 +1,3 @@
-
 /*
 =======================================
 Bootstrap of Project
@@ -13,4 +12,4 @@ import VueRouter from './router'
 const app = createApp(App)
 app.use(VuexStore)
 app.use(VueRouter)
-app.mount('#app')
+app.mount('#app') 
