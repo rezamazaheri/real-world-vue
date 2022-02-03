@@ -5,19 +5,17 @@
 </template>
 
 <script setup lang="ts">
-import EventCard from '../components/EventCard.vue';
+import EventCard from '../components/EventCard.vue'
 import { ref, onMounted } from 'vue'
-import axios from 'axios'
-const BASE_URL = 'https://my-json-server.typicode.com/rezamazaheri/real-world-vue/'
+import EventService from '../services/EventService'
 
 const events = ref([])
 
 onMounted( async() => {
     try {
-        const { data } = await axios.get(BASE_URL + 'events')
+        const { data } = await EventService.getEventList()
         events.value = data
-    }
-    catch(error) {
+    } catch(error) {
         throw error
     }
 })
