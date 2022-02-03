@@ -36,7 +36,6 @@ Main Vue File(Root Component)
         font-weight: bold;
         color: @link-color;
     } 
-
 }
 
 h4 {
