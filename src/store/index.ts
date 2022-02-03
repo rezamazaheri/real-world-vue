@@ -1,6 +1,6 @@
 /*
 ================================================
-Where We Assemble Modules and Export The Store
+Assemble Modules and Export The Store
 ================================================
 */
 
