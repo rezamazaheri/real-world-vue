@@ -7,7 +7,7 @@ Main Vue File(Root Component)
 <template>
 <div id="app">
 	<div id="nav">
-		<router-link :to="{ name: 'Home' }">Home</router-link> |
+		<router-link :to="{ name: 'EventList' }">Events</router-link> |
 		<router-link :to="{ name: 'About' }">About</router-link>
 	</div>
 	<h1>Events For Good</h1>
