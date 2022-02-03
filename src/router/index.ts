@@ -5,14 +5,14 @@ App Navigation
 */
 
 import { createRouter, createWebHistory } from "vue-router";
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
+import EventList from '../views/EventList.vue'
+const About = () => import('../views/About.vue')
 
 const routes = [
     {
         path: '/',
-        name: 'Home',
-        component: Home
+        name: 'EventList',
+        component: EventList
     },
     {
         path: '/about',
