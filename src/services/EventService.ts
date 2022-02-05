@@ -2,7 +2,10 @@
 import useAxios from '../utils/http'
 
 export default {
-    getEventList: async() => {
+    getEvents: async() => {
         return await useAxios().get('/events') 
+    },
+    getEvent: async(id: number) => {
+        return await useAxios().get('/events/' + id)
     }
 }
