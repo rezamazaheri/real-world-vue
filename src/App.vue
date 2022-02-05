@@ -10,7 +10,6 @@ Main Vue File(Root Component)
 		<router-link :to="{ name: 'EventList' }">Events</router-link> |
 		<router-link :to="{ name: 'About' }">About</router-link>
 	</div>
-	<h1>Events For Good</h1>
 	<router-view></router-view>
 </div>
 </template>
