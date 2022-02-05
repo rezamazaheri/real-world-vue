@@ -11,13 +11,13 @@ import EventService from '../services/EventService'
 
 const events = ref([{
     "id": 1001,
-    "category": "Animal Welfare",
-    "title": "Cat Adoption Day",
-    "description": "Find your new feline friend at this event.",
-    "location": "Meow Town",
-    "date": "January 28, 2022",
-    "time": "12:00",
-    "organizer": "Kat Laydee"
+    "category": "",
+    "title": "",
+    "description": "",
+    "location": "",
+    "date": "",
+    "time": "",
+    "organizer": ""
 }])
 
 onMounted(async() => {
